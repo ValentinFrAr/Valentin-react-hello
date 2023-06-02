@@ -10,3 +10,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: rgb(15,0,0);
+    background: radial-gradient(circle, rgba(15,0,0,1) 0%, rgba(87,2,2,1) 83%, rgba(112,2,2,1) 99%);
+}
+.topbar{
+    border-bottom: 2px solid rgb(240, 180, 160);
+
+}
+
+.navbar{
+    background-color: #000;
+    border-bottom: rgb(240, 180, 160);
+    color: rgb(240, 180, 160);
+}
+
+.header{
+    border: 2px double rgb(240, 180, 160);
+    width: 98%;
+    background-color: #000;
+    color: rgb(240, 180, 160);
+}
+.card-w{
+    border: 2px double rgb(240, 180, 160);
+    background-color: #000;
+    color: rgb(240, 180, 160);
+
+}
+
+.card img {
+    height: 300px;
+}
+
+.footer{
+    background-color: #000;
+    padding-top: 15px;
+}
+
+footer p {
+    color: rgb(240, 180, 160);
+}
+
+a{
+    color: rgb(240, 180, 160)!important;
+    transition: all .5s!important;
+    cursor: pointer;
+}
+
+a:hover{
+    color: red !important;
+}
